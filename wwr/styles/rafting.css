@@ -1,0 +1,147 @@
+:root {
+    margin: 0;
+    padding: 0;
+    --primary-color: #007BFF;
+    --secondary-color: #6C757D;
+    --accent-color: #28A745;
+    --text-color: #212529;
+    font-family: "roboto", "poppins", sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    padding: 15px;
+    width: 100%;
+    height: 50px;
+}
+header a{
+    width: 100%;
+}
+header nav{
+    display: block;
+    margin-top: 12rem;
+}
+header img{
+    float: left;
+    display: block;
+}
+p {
+    width: auto;
+    color: rgb(00, 120, 215);
+    background-color: rgb(255, 255, 255);
+    text-size-adjust: 55%;
+    height: auto;
+    margin: 20px;
+    border: 8px thin #35f732;
+    padding: 4px;
+}
+p img{
+    float: right;
+}
+h1 {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: roboto;
+    position: absolute;
+
+}
+
+h2 {
+    color: var(--secondary-color);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    font-family: roboto;
+
+}
+
+p {
+    color: var(--text-color);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-family: poppins;
+}
+
+
+.hero {
+    position: relative;
+}
+.hero h1{
+    position: absolute;
+    font-size: 50px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+    
+}
+.hero article{
+    position: absolute;
+}
+
+.hero article, img{
+    float: right;
+}
+
+.hero article {
+    margin-top: 15rem;
+
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article {
+    position: absolute;
+    top: 2vw;
+    padding: 1rem;
+    background-color: rgba(237, 224, 179, 0.6);
+    margin: 5rem;
+
+}
+article p{
+    background-color: rgba(237, 224, 179, 0.6);
+
+}
+
+#adventures_image h2{
+    display: block;
+}
+
+#adventures_image{
+    display: block;
+    margin-bottom: 33rem;
+}
+
+#history_section{
+    display: block;
+    margin-top: 10rem;
+
+}
+#happy_client{
+    width: 20%;
+    float: right;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+    border: none;
+}
+footer p{
+    float: left;
+}
+.social_links{
+    display: block;
+    float: left;
+    
+}
