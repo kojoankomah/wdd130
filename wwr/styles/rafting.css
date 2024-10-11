@@ -143,5 +143,5 @@ footer p{
 .social_links{
     display: block;
     float: left;
-    
+    text-decoration-style: none;
 }
