@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms </title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <form action="result.html" method="GET" enctype="multipart/form-data">
+        <div class="name_section">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="Username" placeholder="Username" required>
+        </div>
+        <div>
+            <label for="eyecolor">Eye Color</label>
+            <select name="Eye Color" id="eyecolor" >
+                <option value="Green">Green</option>
+                <option label="Red">Red</option>
+                <option label="Blue">Blue</option>
+
+            </select>
+        </div>
+        <div class="password_section">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="Password" >
+        </div>
+        <div class="email_section">
+            <label for="email">Email</label>
+            <input type="email" name="E-mail" id="email" >
+        </div>
+        <div class="number_section">
+            <label for="age">Age</label>
+            <input type="number" name="Age" id="age" min="1" max="200" step="2">
+        </div>
+        <div class="date_section">
+            <label for="date">Birthdate</label>
+            <input type="date" name="Date" id="date" min="2019-10-10">
+        </div>
+        <div class="check_list">
+            Favourite Food
+            <div>
+                <label for="banana">Banana</label>
+                <input type="checkbox" name="Banana" id="banana">
+            </div>
+            <div>
+                <label for="apple">Apple</label>
+                <input type="checkbox" name="Apple" id="apple">
+            </div>           
+             <div>
+                <label for="straw-berry">Straw-berry</label>
+                <input type="checkbox" name="Straw-berry" id="straw-berry">
+            </div>
+        </div>
+        <div class="gender">
+            Gender
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male">
+
+            </div>
+            <div>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female">
+            </div>
+        </div>
+        <div class="bio">
+            <label for="bio">Bio</label>
+            <textarea name="Bio" id="bio" cols="15" rows="5"></textarea>
+        </div>
+        <div class="file">
+            <label for="file">File</label>
+            <input type="file" name="File" id="file">
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

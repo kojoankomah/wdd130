@@ -1,0 +1,23 @@
+body{
+    background-color: cadetblue;
+}
+div{
+    border: 1px solid wheat;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: 200px 250px;
+    grid-auto-rows: minmax(150px , auto);
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid_item{
+    justify-self: end;
+    align-self: end;
+}

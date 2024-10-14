@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+    background-color: rgb(69, 88, 183);
+    padding: 1rem;
+    margin: 1rem;
+    height: 20vh;
+}
+
+.box2{
+    background-color: rgb(126, 69, 183);
+}
+.box3{
+    background-color: rgb(172, 88, 183);
+}
+.box4{
+    background-color: rgb(183, 69, 111);
+}
