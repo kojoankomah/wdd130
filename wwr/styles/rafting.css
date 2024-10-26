@@ -1,6 +1,10 @@
-:root {
+*{
     margin: 0;
     padding: 0;
+}
+
+:root {
+
     --primary-color: #007BFF;
     --secondary-color: #6C757D;
     --accent-color: #28A745;
@@ -220,6 +224,7 @@ footer{
     height: 5rem;
     margin-top: 50rem;
 
+
 }
 .footer_nav{
     width: 100%;
@@ -316,7 +321,6 @@ button{
     margin: 1rem 0;
     padding: 1rem 5rem;
     font-size: 1rem;
-    background-color: rgb(224, 247, 61);
     color: rgb(38, 13, 197);
        
 }
@@ -359,4 +363,190 @@ button{
 .caption p {
     font-size: 16px;
     color: #004d40;
+}
+
+.hero_div , .trip_hero_div{
+    display: flex;
+    justify-content: flex-start;
+
+}
+#home_hero{
+    width: 100%;
+    height: auto;
+
+}
+.home_hero{
+    position: relative;
+}
+#book_a_trip{
+    color: darkblue;
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    background-color:  #fafaff; 
+    border-radius: 1rem;
+    opacity: 0.9;
+    width: 50%;
+    margin: 0 25%;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+
+}
+#book_a_trip_button{
+    position: absolute;
+    text-align: center;
+    position: absolute;
+    width: 50%;
+    margin-left: 28rem;
+    top: 45rem;
+    border-radius: 2rem;
+    width: 28%;
+    font-weight: 600;
+    background-color: white;
+    color: darkblue ;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+a{
+    text-decoration: none;
+
+}
+
+.newsletter{
+    text-align: center;
+    border: 3px  solid #f8f9ef;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 5rem 0;
+    
+
+}
+#newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#newsletter form {
+    font-size: 16px;
+    margin: 0.5rem;
+
+}
+
+#newsletter input{
+    font-size: 14px;
+    width: 200px;
+    padding: 2px;
+
+}
+
+#booking_section{
+    text-align: center;
+}
+#reservation{
+    margin-top: 1rem;
+}
+
+.book_image{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+
+}
+
+.booking_section{
+    margin: 1rem 0;
+    padding:  3rem 0;
+
+}
+
+.trips{
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main_trips{
+    margin: 2rem 0;
+
+}
+.raft_trips{
+    width: 100%;
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: 350px 350px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+#main_trips h2{
+    font-size: 32px;
+}
+
+.testimony{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.testimony img{
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 300px;
+
+}
+#home_body, input, p{
+    background-color: #f8f9ef;
+    color: rgb(61, 59, 59);
+}
+.trips-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+.trips-table thead th {
+    background-color: darkblue;
+    color: white;
+    padding: 12px;
+    border-bottom: 2px solid #ddd;
+}
+.trips-table tbody tr {
+    background-color: #f2f2f2;
+}
+.trips-table tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+#table{
+    margin: 2rem 0;
+}
+h2,h3{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: black;
+}
+h1{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
 }
