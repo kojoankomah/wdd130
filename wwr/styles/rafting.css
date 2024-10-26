@@ -508,7 +508,6 @@ a{
 }
 
 .testimony img{
-    border: 3px solid red;
     display: flex;
     flex-direction: column;
     width: 350px;
